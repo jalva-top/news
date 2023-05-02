@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX idx_value ON tokens (value);

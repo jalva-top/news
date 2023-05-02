@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX idx_email ON authors (email);

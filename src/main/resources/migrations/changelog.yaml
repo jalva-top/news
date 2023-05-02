@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - include:
+      file: migrations/changes/2023-05-01_01_create-table-articles.sql
+  - include:
+      file: migrations/changes/2023-05-01_02_create-table-authors.sql
+  - include:
+      file: migrations/changes/2023-05-01_03_create-table-keywords.sql
+  - include:
+      file: migrations/changes/2023-05-01_04_create-table-article_authors.sql
+  - include:
+      file: migrations/changes/2023-05-01_05_create-table-article_keywords.sql
+  - include:
+      file: migrations/changes/2023-05-01_06_add-articles-idx_header_short_description.sql
+  - include:
+      file: migrations/changes/2023-05-01_07_add-articles-idx_published_at.sql
+  - include:
+      file: migrations/changes/2023-05-01_08_add-authors-idx_email.sql
+  - include:
+      file: migrations/changes/2023-05-01_09_create-table-users.sql
+  - include:
+      file: migrations/changes/2023-05-01_10_add-users-idx_username.sql
+  - include:
+      file: migrations/changes/2023-05-01_11_create-table-tokens.sql
+  - include:
+      file: migrations/changes/2023-05-01_12_add-users-idx_value.sql
