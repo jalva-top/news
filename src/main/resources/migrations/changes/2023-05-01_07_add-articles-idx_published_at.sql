@@ -1,0 +1,1 @@
+CREATE INDEX idx_published_at ON articles (published_at);

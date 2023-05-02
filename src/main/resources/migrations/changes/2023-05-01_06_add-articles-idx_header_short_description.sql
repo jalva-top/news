@@ -1,0 +1,1 @@
+CREATE INDEX idx_header_short_description ON articles (header, short_description);
